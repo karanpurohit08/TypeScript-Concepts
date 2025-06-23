@@ -1,0 +1,15 @@
+{
+    "watch": [
+        "practise",
+        "app.ts"
+    ],
+    "ext": "js,json,ts",
+    "ignore": [
+        "*.test.ts, node_modules"
+    ],
+    "delay": "3",
+    "execMap": {
+        "ts": "ts-node" 
+    },
+    "exec": "ts-node app.ts"
+}
